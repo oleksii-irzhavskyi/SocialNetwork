@@ -17,6 +17,7 @@
 		9B49BE82295E3B9900C30FAF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B49BE81295E3B9900C30FAF /* MainView.swift */; };
 		9B49BE84295E3E2500C30FAF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B49BE83295E3E2500C30FAF /* ProfileView.swift */; };
 		9B49BE86295E537F00C30FAF /* ReusableProfileContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B49BE85295E537F00C30FAF /* ReusableProfileContent.swift */; };
+		9B78E44C295FB06900FAE6D4 /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B78E44B295FB06900FAE6D4 /* PostsView.swift */; };
 		9BA427F8295CE55800BE8804 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA427F7295CE55800BE8804 /* User.swift */; };
 		9BA427FA295CF37700BE8804 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA427F9295CF37700BE8804 /* LoadingView.swift */; };
 		9BDF077B2954C86000C23D6A /* SocialNeworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF077A2954C86000C23D6A /* SocialNeworkApp.swift */; };
@@ -25,6 +26,8 @@
 		9BDF07822954C86100C23D6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDF07812954C86100C23D6A /* Preview Assets.xcassets */; };
 		9BDF07892954CE3B00C23D6A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BDF07882954CE3B00C23D6A /* GoogleService-Info.plist */; };
 		9BDF07902954D09700C23D6A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF078F2954D09700C23D6A /* LoginView.swift */; };
+		9BE754E3295F945E00BA3AD8 /* CreateNewPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE754E2295F945E00BA3AD8 /* CreateNewPost.swift */; };
+		9BE754E5295F949500BA3AD8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE754E4295F949500BA3AD8 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,7 @@
 		9B49BE81295E3B9900C30FAF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		9B49BE83295E3E2500C30FAF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		9B49BE85295E537F00C30FAF /* ReusableProfileContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProfileContent.swift; sourceTree = "<group>"; };
+		9B78E44B295FB06900FAE6D4 /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
 		9BA427F7295CE55800BE8804 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9BA427F9295CF37700BE8804 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		9BDF07772954C86000C23D6A /* SocialNework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNework.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +46,8 @@
 		9BDF07812954C86100C23D6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BDF07882954CE3B00C23D6A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9BDF078F2954D09700C23D6A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9BE754E2295F945E00BA3AD8 /* CreateNewPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPost.swift; sourceTree = "<group>"; };
+		9BE754E4295F949500BA3AD8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,8 @@
 				9B49BE81295E3B9900C30FAF /* MainView.swift */,
 				9B49BE83295E3E2500C30FAF /* ProfileView.swift */,
 				9B49BE85295E537F00C30FAF /* ReusableProfileContent.swift */,
+				9BE754E2295F945E00BA3AD8 /* CreateNewPost.swift */,
+				9B78E44B295FB06900FAE6D4 /* PostsView.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -148,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				9BA427F7295CE55800BE8804 /* User.swift */,
+				9BE754E4295F949500BA3AD8 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -237,10 +246,13 @@
 				9BA427F8295CE55800BE8804 /* User.swift in Sources */,
 				9B49BE84295E3E2500C30FAF /* ProfileView.swift in Sources */,
 				9B49BE86295E537F00C30FAF /* ReusableProfileContent.swift in Sources */,
+				9BE754E5295F949500BA3AD8 /* Post.swift in Sources */,
 				9B49BE82295E3B9900C30FAF /* MainView.swift in Sources */,
 				9BDF07902954D09700C23D6A /* LoginView.swift in Sources */,
 				9BDF077D2954C86000C23D6A /* ContentView.swift in Sources */,
 				9B49BE7D295E3A5C00C30FAF /* RegisterView.swift in Sources */,
+				9BE754E3295F945E00BA3AD8 /* CreateNewPost.swift in Sources */,
+				9B78E44C295FB06900FAE6D4 /* PostsView.swift in Sources */,
 				9BA427FA295CF37700BE8804 /* LoadingView.swift in Sources */,
 				9B49BE80295E3B3800C30FAF /* View+Extensions.swift in Sources */,
 				9BDF077B2954C86000C23D6A /* SocialNeworkApp.swift in Sources */,
