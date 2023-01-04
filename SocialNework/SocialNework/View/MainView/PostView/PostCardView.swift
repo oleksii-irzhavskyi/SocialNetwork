@@ -168,7 +168,7 @@ struct PostCardView: View {
             //delete Image
             do{
                 if post.imageReferenceID != ""{
-                    try await Storage.storage().reference().child("Post_Images").child(post.imageReferenceID)
+                    try await Storage.storage().reference().child("Post_Images").child(post.imageReferenceID).delete()
                 }
                 //delete firestore document
                 guard let postID = post.id else{return}

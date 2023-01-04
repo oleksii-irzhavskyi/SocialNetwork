@@ -22,6 +22,7 @@
 		9B78E44C295FB06900FAE6D4 /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B78E44B295FB06900FAE6D4 /* PostsView.swift */; };
 		9BA427F8295CE55800BE8804 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA427F7295CE55800BE8804 /* User.swift */; };
 		9BA427FA295CF37700BE8804 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA427F9295CF37700BE8804 /* LoadingView.swift */; };
+		9BA503DB2966082B00DC7BA3 /* SearchUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA503DA2966082B00DC7BA3 /* SearchUserView.swift */; };
 		9BDF077B2954C86000C23D6A /* SocialNeworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF077A2954C86000C23D6A /* SocialNeworkApp.swift */; };
 		9BDF077D2954C86000C23D6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF077C2954C86000C23D6A /* ContentView.swift */; };
 		9BDF077F2954C86100C23D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDF077E2954C86100C23D6A /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		9B78E44B295FB06900FAE6D4 /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
 		9BA427F7295CE55800BE8804 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9BA427F9295CF37700BE8804 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		9BA503DA2966082B00DC7BA3 /* SearchUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserView.swift; sourceTree = "<group>"; };
 		9BDF07772954C86000C23D6A /* SocialNework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDF077A2954C86000C23D6A /* SocialNeworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNeworkApp.swift; sourceTree = "<group>"; };
 		9BDF077C2954C86000C23D6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,12 +85,10 @@
 			isa = PBXGroup;
 			children = (
 				9B49BE81295E3B9900C30FAF /* MainView.swift */,
-				9B49BE83295E3E2500C30FAF /* ProfileView.swift */,
-				9B49BE85295E537F00C30FAF /* ReusableProfileContent.swift */,
 				9BE754E2295F945E00BA3AD8 /* CreateNewPost.swift */,
-				9B78E44B295FB06900FAE6D4 /* PostsView.swift */,
-				9B4F1461296372A8000A5746 /* ReusablePostsView.swift */,
-				9B4F146329637EE2000A5746 /* PostCardView.swift */,
+				9BA503D92965FFCB00DC7BA3 /* ProfileView */,
+				9BA503D82965FF9A00DC7BA3 /* PostView */,
+				9BA503DA2966082B00DC7BA3 /* SearchUserView.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -106,6 +106,25 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BA503D82965FF9A00DC7BA3 /* PostView */ = {
+			isa = PBXGroup;
+			children = (
+				9B78E44B295FB06900FAE6D4 /* PostsView.swift */,
+				9B4F1461296372A8000A5746 /* ReusablePostsView.swift */,
+				9B4F146329637EE2000A5746 /* PostCardView.swift */,
+			);
+			path = PostView;
+			sourceTree = "<group>";
+		};
+		9BA503D92965FFCB00DC7BA3 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				9B49BE83295E3E2500C30FAF /* ProfileView.swift */,
+				9B49BE85295E537F00C30FAF /* ReusableProfileContent.swift */,
+			);
+			path = ProfileView;
 			sourceTree = "<group>";
 		};
 		9BDF076E2954C86000C23D6A = {
@@ -264,6 +283,7 @@
 				9B4F146429637EE2000A5746 /* PostCardView.swift in Sources */,
 				9B49BE80295E3B3800C30FAF /* View+Extensions.swift in Sources */,
 				9BDF077B2954C86000C23D6A /* SocialNeworkApp.swift in Sources */,
+				9BA503DB2966082B00DC7BA3 /* SearchUserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
